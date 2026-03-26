@@ -4,6 +4,7 @@ void main() {
   runApp(const MaterialMissionApp());
 }
 
+// testando commit
 class MaterialMissionApp extends StatefulWidget {
   const MaterialMissionApp({super.key});
 
@@ -167,7 +168,8 @@ class HomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: <Widget>[
-                  Icon(Icons.flutter_dash, size: 40, color: scheme.onPrimaryContainer),
+                  Icon(Icons.flutter_dash,
+                      size: 40, color: scheme.onPrimaryContainer),
                   const SizedBox(height: 12),
                   Text(
                     'Menu do Projeto',
@@ -315,7 +317,8 @@ class SummaryCard extends StatelessWidget {
           children: <Widget>[
             Text(
               'Resumo da interface',
-              style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+              style: theme.textTheme.titleMedium
+                  ?.copyWith(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 12),
             ListTile(
